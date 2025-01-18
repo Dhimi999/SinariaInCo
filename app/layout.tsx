@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Sinaria InCo',
   description: 'Solusi lengkap untuk kebutuhan percetakan dan pengeditan dokumen Anda',
   icons: {
-    icon: '/Sinaria.ico',
+    icon: './Sinaria.ico',
   },
 }
 
