@@ -175,20 +175,6 @@ export function ZoomOrderForm({ onSubmit }: ZoomOrderFormProps) {
 
           <FormField
             control={form.control}
-            name="eventQuantity"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Jumlah Pesanan</FormLabel>
-                <FormControl>
-                  <Input placeholder="Masukkan jumlah pesanan Anda" {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-
-          <FormField
-            control={form.control}
             name="eventDate"
             render={({ field }) => (
               <FormItem className="flex flex-col">
